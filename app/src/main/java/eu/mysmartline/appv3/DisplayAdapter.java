@@ -45,13 +45,14 @@ public class DisplayAdapter extends BaseAdapter {
 		
 //		ImageView image = (ImageView)view.findViewById(R.id.icon);
 		TextView message = (TextView)view.findViewById(R.id.txt_name);
-//		TextView time = (TextView)view.findViewById(R.id.time);
+
+		TextView time = (TextView)view.findViewById(R.id.txt_time);
 		
 		DisplayModel displayModel = arrayList.get(position);
 		
 //		image.setImageResource(displayModel.icon);
 		message.setText(displayModel.message);
-//		time.setText(displayModel.time);
+		time.setText(displayModel.time);
 		
 		return view;
 	}

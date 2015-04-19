@@ -27,6 +27,7 @@
                 android:text="@string/b_7"
                 android:textStyle="bold"
                 android:gravity="center"
+                android:id="@+id/txt_time"
                 />
         </LinearLayout>
         <ImageView
