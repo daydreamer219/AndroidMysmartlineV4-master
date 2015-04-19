@@ -10,14 +10,15 @@
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:layout_marginLeft="@dimen/line_padding">
+        android:layout_marginLeft="@dimen/line_padding"
+        android:layout_marginRight="@dimen/activity_vertical_margin">
 
         <LinearLayout
             android:layout_width="@dimen/btn_back_width"
             android:layout_height="@dimen/btn_back_width"
             android:gravity="center"
             android:orientation="vertical"
-            android:background="@drawable/ic_panel"
+            android:background="@drawable/btn_border"
             >
             <TextView
                 android:layout_width="match_parent"
