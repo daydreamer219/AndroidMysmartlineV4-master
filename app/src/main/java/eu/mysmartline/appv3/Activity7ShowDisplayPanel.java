@@ -9,6 +9,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.drawable.ColorDrawable;
+import android.media.Ringtone;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
@@ -39,7 +42,15 @@ public class Activity7ShowDisplayPanel extends Activity {
 		msgList = (ListView) findViewById(R.id.MessageList);
 		details = new ArrayList<DisplayModel>();
 		
-		
+		if (isFromPush){
+            try {
+                Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+                Ringtone r = RingtoneManager.getRingtone(this, notification);
+                r.play();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
 		
 		for(DisplayModel model:details){
 			Log.d("tag","after: "+ model.getMessage());

@@ -217,13 +217,7 @@ public class GcmIntentService extends IntentService {
 			DisplayCounter counter = DisplayCounter.getInstance();
 			counter.add(currentNumber);
 
-            try {
-                Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-                Ringtone r = RingtoneManager.getRingtone(this, notification);
-                r.play();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+
 
 			if (navigationIntention.equals(MyKeys.PROPERTY_NAVIGATETO_SHOW_DISPLAY_PANEL)){
 				
