@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/line_padding">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_width"
+                android:src="@drawable/ic_play"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/item_font_small_size"
+                android:textColor="@color/defaultThemeColor"
+                android:text="@string/select_get_line"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/defaultThemeColorDark"
+            android:textSize="@dimen/item_font_size"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/line_padding"/>
+
+    </LinearLayout>
+
+</LinearLayout>

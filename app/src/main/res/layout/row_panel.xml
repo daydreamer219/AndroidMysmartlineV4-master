@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/line_padding">
+
+        <LinearLayout
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_width"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/ic_panel"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/item_font_large_size"
+                android:textColor="@color/defaultThemeColor"
+                android:text="@string/b_7"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/line_padding"
+            android:src="@drawable/ic_arrow"
+            android:scaleType="fitXY"
+            android:layout_margin="@dimen/activity_vertical_margin"/>
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/defaultThemeColorDark"
+            android:textSize="@dimen/item_font_size"
+            android:textStyle="bold"
+            android:padding="@dimen/activity_vertical_margin"
+            android:background="@drawable/btn_border"/>
+
+    </LinearLayout>
+
+</LinearLayout>

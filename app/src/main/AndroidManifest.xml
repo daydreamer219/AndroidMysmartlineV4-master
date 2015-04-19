@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.mysmartline.appv3"
+    android:versionCode="10"
+    android:versionName="1.10" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="eu.mysmartline.appv3.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="eu.mysmartline.appv3.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="eu.mysmartline.appv3.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="eu.mysmartline.appv3.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="eu.mysmartline.appv3" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="eu.mysmartline.appv3.GcmIntentService" />
+
+        <activity
+            android:name="eu.mysmartline.appv3.Activity2ShowLines"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/title_activity_activity2_show_lines" >
+        </activity>
+        <activity
+            android:name="eu.mysmartline.appv3.Activity3ListActivityes"
+            android:label="@string/title_activity_activity3_list_activityes" >
+        </activity>
+        <activity
+            android:name="eu.mysmartline.appv3.ActivateDevice"
+            android:label="@string/title_activity_activate_device" >
+        </activity>
+        <activity
+            android:name="eu.mysmartline.appv3.Activity4ActivateDevice"
+            android:label="@string/title_activity_activity4_activate_device" >
+        </activity>
+        <activity
+            android:name="eu.mysmartline.appv3.Activity5TestActivity1"
+            android:label="@string/title_activity_activity5_test_activity1" >
+        </activity>
+        <activity
+            android:name="eu.mysmartline.appv3.Activity6ShowLineDetails"
+            android:label="@string/title_activity_activity6_show_line_details" >
+        </activity>
+        <activity
+            android:name="eu.mysmartline.appv3.Activity7ShowDisplayPanel"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/title_activity_activity7_show_display_panel" >
+        </activity>
+        <activity
+            android:name="eu.mysmartline.appv3.Activity8TestPrint"
+            android:label="@string/title_activity_activity8_test_print"
+            android:parentActivityName="eu.mysmartline.appv3.Activity3ListActivityes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eu.mysmartline.appv3.Activity3ListActivityes" />
+        </activity>
+        <activity
+            android:name="eu.mysmartline.appv3.Actifiby9ConfigurePrinter"
+            android:label="@string/title_activity_actifiby9_configure_printer"
+            android:parentActivityName="eu.mysmartline.appv3.Activity3ListActivityes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eu.mysmartline.appv3.Activity3ListActivityes" />
+        </activity>
+        <activity
+            android:name="eu.mysmartline.appv3.Activity9ConfigurePrinter"
+            android:label="@string/title_activity_activity9_configure_printer"
+            android:parentActivityName="eu.mysmartline.appv3.Activity3ListActivityes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eu.mysmartline.appv3.Activity3ListActivityes" />
+        </activity>
+        <activity
+            android:name="eu.mysmartline.appv3.Activity10Print"
+            android:label="@string/title_activity_activity10_print"
+            android:parentActivityName="eu.mysmartline.appv3.Activity2ShowLines" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eu.mysmartline.appv3.Activity2ShowLines" />
+        </activity>
+        <activity
+            android:name="eu.mysmartline.appv3.Activity11ConnectToServer"
+            android:label="@string/title_activity_activity11_connect_to_server" >
+        </activity>
+    </application>
+
+</manifest>

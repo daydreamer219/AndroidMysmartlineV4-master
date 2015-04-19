@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MainActivity -->
+    <string name="hello_world">S\'il vous plaît attendre cet appareil se connecte aux services de back-end . Vous devez être connecté à Internet si vous avez besoin le processus de connexion à terminer avec succès.</string>
+    <string name="default_status">pas défaut statut</string>
+    <!-- Activity3 -->
+    <string name="title_activity_activity3_list_activityes">Activity3ListActivities</string>
+    <string-array name="activity3_nenu_items">
+        <item>Voir toutes les lignes</item>
+        <item>Réinitialiser dispositif</item>
+        <item>Voir panneau d\'affichage</item>
+        <item>Configurer imprimante</item>
+    </string-array>
+    <!-- Activity4 -->
+    <string name="title_activity_activity4_activate_device">Activity4ActivateDevice</string>
+    <string name="activity4_textView1">Pour activer ce dispositif s\'il vous plaît lire le code QR ci-dessous</string>
+    <!-- Activity6 -->
+    <string name="title_activity_activity6_show_line_details">Activity6ShowLineDetails</string>
+    <string name="activiti6_to_get_in_line_please_scan">Pour entrer en ligne s\'il vous plaît scanner le code suivant</string>
+    <string name="activity6_print_text">Si votre appareil n\'est pas connecté à Internet, vous pouvez choisir d\'imprimer un ticket</string>
+    <string name="activity6_print_buton">Imprimer un ticket</string>
+    <string name="activity6_generating_code">de génération de code</string>
+    <!-- Activity9 -->
+    <string-array name="activity9_menu_items">
+        <item>Utiliser des modèles Epson TM</item>
+        <item>Utilisez Google Cloud Print</item>
+        <item>Désactivez l\'impression</item>
+    </string-array>
+    <!-- Activity11 -->
+    <string name="title_activity_activity11_connect_to_server">Activity11ConnectToServer</string>
+    <string name="activity11_hello">Le dispositif a contacté avec succès les services de cloud computing . Maintenant, nous attendons une notification push pour arriver . Le premier pourrait prendre plus d\'une moment.</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_activity2">Hello from activity 2</string>
+    <string name="hello_activity3">Hello from activity 3. You should list all the other activities using this activity</string>
+    <string name="title_activity_activity2_show_lines">Activity2ShowLines</string>
+    <string name="title_activity_activate_device">ActivateDevice</string>
+    <string name="title_activity_activity5_test_activity1">Activity5TestActivity1</string>
+    <string name="activity5_textView1">This is test activity 5</string>
+    <string name="title_activity_activity7_show_display_panel">Activity7ShowDisplayPanel</string>
+    <string name="activity7_textView1">Current number</string>
+    <string name="activity7_textView2"> :) </string>
+    <string name="title_activity_activity8_test_print">Activity8TestPrint</string>
+    <string name="activity8_print_debug_to_log">Pint debug message</string>
+    <string name="title_activity_actifiby9_configure_printer">Actifiby9ConfigurePrinter</string>
+    <string name="title_activity_activity9_configure_printer">Activity9ConfigurePrinter</string>
+    <string name="title_activity_activity10_print">Activity10Print</string>
+    <string name="app_name">my-smart-line</string>
+    <!-- Starting to replace resources -->
+    
+    <!-- MainActivity -->
+    <string name="hello_world">Please wait until this device connects to the back end services. You have to be connected to the internet if you need the connection process to finish successfully.</string>
+    <string name="default_status">no default status</string>
+    <!-- Activity3 -->
+    <string name="title_activity_activity3_list_activityes">Activity3ListActivities</string>
+    <string-array name="activity3_nenu_items">
+        <item>Show all lines</item>
+        <item>Reset device</item>
+        <item>Show display panel</item>
+        <item>Configure printer</item>
+    </string-array>
+    <!-- Activity4 -->
+    <string name="title_activity_activity4_activate_device">Activity4ActivateDevice</string>
+    <string name="activity4_textView1">In order to activate this device please scan the following QR code</string>
+    <!-- Activity6 -->
+    <string name="title_activity_activity6_show_line_details">Activity6ShowLineDetails</string>
+    <string name="activiti6_to_get_in_line_please_scan">To get in line please scan the following code</string>
+    <string name="activity6_print_text">If your device is not connected to internet you can choose to print a ticket</string>
+    <string name="activity6_print_buton">Print ticket</string>
+    <string name="activity6_generating_code">generating code</string>
+    <!-- Activity9 -->
+    <string-array name="activity9_menu_items">
+        <item>Use Epson TM models</item>
+        <item>Use Google cloud print</item>
+        <item>Disable printing</item>
+    </string-array>
+    <!-- Activity11 -->
+    <string name="title_activity_activity11_connect_to_server">Activity11ConnectToServer</string>
+    <string name="activity11_hello">The device has successfully contacted the cloud services. Now we are waiting for a push notification to arrive. The first one might take longer than a moment.</string>
+
+
+    <!-- added by daydreamer   -->
+    <string name="alert_title_error">Error</string>
+    <string name="alert_title_success">Success</string>
+    <string name="login_success">Login successfully.\nPlease click menu button.</string>
+    <string name="reset_device">Reset device successfully.\nPlease click here to login again.</string>
+    <string name="select_get_line">Select to get in line</string>
+    <string name="b_7">B7</string>
+</resources>

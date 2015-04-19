@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MainActivity -->
+    <string name="hello_world">Va rugam sa asteptati pana cind atest dispozitiv se conecteaza la serviciile din cloud. Trebuie sa fiti conectat la internet pentru ca procesul de initializare sa se finalizeze cu succes.</string>
+    <string name="default_status">Nu exista default status</string>
+    <!-- Activity3 -->
+    <string name="title_activity_activity3_list_activityes">Activity3ListActivities</string>
+    <string-array name="activity3_nenu_items">
+        <item>Vizualizeaza toate liniile</item>
+        <item>Reseteaza dispozitivul</item>
+        <item>Arata panoul de afisare</item>
+        <item>Configureaza inprimanta</item>
+    </string-array>
+    <!-- Activity4 -->
+    <string name="title_activity_activity4_activate_device">Activity4 Activeaza dispozitivul</string>
+    <string name="activity4_textView1">Pentru a activa acest dispozitiv va rugam sa scanati urmatorul cod QR</string>
+    <!-- Activity6 -->
+    <string name="title_activity_activity6_show_line_details">Activity6 Detalii linie</string>
+	<string name="activiti6_to_get_in_line_please_scan">Pentru a va inscrie in linie va rugam sa scanati urmatorul cod QR</string>
+	<string name="activity6_print_text">Daca mobilul dumneavoastra nu este conectat la internet atunci puteti opta pentru a lista un numar</string>
+	<string name="activity6_print_buton">Listeaza tichet</string>
+	<string name="activity6_generating_code">se genereaza codul</string>
+	<!-- Activity9 -->
+	<string-array name ="activity9_menu_items">
+	    <item>Folosit Epson de tip TM</item>
+	    <item>Folositi Google cloud print</item>
+	    <item>Dezactivati imprimarea</item>
+	</string-array>
+	<!-- Activity11 -->
+    <string name="title_activity_activity11_connect_to_server">Activity11ConnectToServer</string>
+    <string name="activity11_hello">Dispozitivul s-a connectat cu succes la serviciile cloud. Acum asteptam o notificare de tip push sa soseasca. Prima notificare este posibil sa dureze mai mult de un moment pana sa soseasca.</string>
+</resources>
