@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
     android:orientation="horizontal"
-    android:padding="@dimen/activity_horizontal_margin">
+    android:padding="@dimen/item_padding">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -13,8 +13,8 @@
         android:layout_marginLeft="@dimen/line_padding">
 
         <LinearLayout
-            android:layout_width="@dimen/btn_width"
-            android:layout_height="@dimen/btn_width"
+            android:layout_width="@dimen/btn_back_width"
+            android:layout_height="@dimen/btn_back_width"
             android:gravity="center"
             android:orientation="vertical"
             android:background="@drawable/ic_panel"

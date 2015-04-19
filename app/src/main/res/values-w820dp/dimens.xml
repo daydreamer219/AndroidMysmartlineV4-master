@@ -11,6 +11,8 @@
     <dimen name="item_font_size">64sp</dimen>
     <dimen name="action_bar_size">160dip</dimen>
 
+
+
     <dimen name="line_padding">120dp</dimen>
     <dimen name="btn_width">240dp</dimen>
     <dimen name="btn_back_width">320dp</dimen>
