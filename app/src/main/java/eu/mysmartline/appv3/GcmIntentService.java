@@ -219,7 +219,7 @@ public class GcmIntentService extends IntentService {
 
             try {
                 Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-                Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), notification);
+                Ringtone r = RingtoneManager.getRingtone(this, notification);
                 r.play();
             } catch (Exception e) {
                 e.printStackTrace();
