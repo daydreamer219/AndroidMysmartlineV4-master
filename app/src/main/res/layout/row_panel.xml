@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
-            android:background="@drawable/btn_border"
+            android:background="@drawable/ic_panel_oval"
             android:padding="@dimen/activity_vertical_margin"
             >
             <TextView
@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/item_font_large_size"
                 android:textColor="@color/defaultThemeColor"
-                android:text="@string/b_7"
+                android:text="T250"
                 android:textStyle="bold"
                 android:gravity="center"
                 android:id="@+id/txt_time"
