@@ -49,10 +49,17 @@ public class DisplayAdapter extends BaseAdapter {
 		TextView time = (TextView)view.findViewById(R.id.txt_time);
 		
 		DisplayModel displayModel = arrayList.get(position);
-		
+
 //		image.setImageResource(displayModel.icon);
-		message.setText(displayModel.message);
-		time.setText(displayModel.time);
+
+        String[] items = displayModel.message.split("-");
+        if (items.length > 0){
+            time.setText(items[0]);
+        }
+        if (items.length > 1) {
+            message.setText(items[1]);
+        }
+
 		
 		return view;
 	}
