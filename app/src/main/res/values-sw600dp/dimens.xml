@@ -14,5 +14,5 @@
     <dimen name="btn_width">120dp</dimen>
     <dimen name="btn_back_width">150dp</dimen>
     <dimen name="item_font_small_size">20sp</dimen>
-    <dimen name="item_font_large_size">60sp</dimen>
+    <dimen name="item_font_large_size">40sp</dimen>
 </resources>
